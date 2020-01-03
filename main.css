@@ -1,0 +1,52 @@
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  color: white;
+  background-color: black;
+  padding: 4%;
+  height: 50vh;
+  width: 50vh;
+  align-self: center;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+input, button {
+  align-self: center;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 5px;
+  font-size: .9em;
+}
+
+button {
+  width: 180px;
+  padding: 5px;
+  background-color: #fff;
+  font-size: 1em;
+  margin-bottom: 1%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+p {
+  min-height: 60%;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: Impact;
+  letter-spacing: 4px;
+  color: lightgreen;
+}

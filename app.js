@@ -4,7 +4,7 @@ const nameInput = document.getElementById('name');
 
 // action to take on user event 
 function updateResult() {
-  result.textContent = nameInput.value;
+  result.textContent = 'Hello ' + nameInput.value + '!';
 }
 
 // add message to console while var x is greater than 20

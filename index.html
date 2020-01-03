@@ -10,13 +10,9 @@
 
 <body>
   <form>
-    <label>
-      Name: <input id="name" oninput="updateResult()">
-    </label>
-  
-    <p>
-      Hello <span id="result"></span>!
-    </p>
+    <input placeholder="Name" id="name" oninput="updateResult()">
+    <button>Submit</button>
+    <p id="result"></p>
   </form>
 
   <script src="app.js"></script>
