@@ -4,6 +4,7 @@ const nameInput = document.getElementById('name');
 
 // action to take on user event 
 function updateResult() {
+  event.preventDefault();
   result.textContent = 'Hello ' + nameInput.value + '!';
 }
 

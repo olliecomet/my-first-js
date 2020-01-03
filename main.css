@@ -31,7 +31,7 @@ input {
 button {
   width: 180px;
   padding: 5px;
-  background-color: #fff;
+  background-color: #ddd;
   font-size: 1em;
   margin-bottom: 1%;
 }
@@ -43,7 +43,6 @@ button:hover {
 }
 
 p {
-  min-height: 60%;
   font-size: 2.5em;
   text-align: center;
   font-family: Impact;
